@@ -34,14 +34,18 @@
 
 .main-content{
     display: flex;
+    width: 1185px;
+    margin: 0 auto;
 }
 .main-content__wrapper-left-box{
     width: 750px;
-    padding: 45px 0 0 175px;
+    padding-top: 42px;
+    padding-left: 10px;
 }
 .main-content__wrapper-right-box{
     width: 750px;
     padding-top: 40px;
+    padding-left: 160px;
 }
 
 
