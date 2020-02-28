@@ -42,7 +42,6 @@
     width: 1170px;
 }
 
-                                                        /* div styles */
 .blog__article{
     display: flexbox;
     width: 370px;
@@ -107,7 +106,6 @@
     font-size: 13px;
     z-index: 3;
 }
-                                                    /* div styles end*/
 
 .blog__button{
     display: block;
