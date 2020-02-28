@@ -5,7 +5,6 @@
     box-sizing: border-box;
     padding-top: 60px;
 }
-
 .blog{
     width: 1180px;
     margin: 0 auto;
@@ -41,7 +40,6 @@
     justify-content: space-between;
     width: 1170px;
 }
-
 .blog__article{
     display: flexbox;
     width: 370px;
@@ -62,12 +60,18 @@
     transition: 0.4s;
     z-index: 2;
 }
-.blog__article:hover:after {opacity: 1; transition: all 0.5s;}
-
-.blog__article--case1{background-image: url(../images/blog/GreenSmoothie.jpg);}
-.blog__article--case2{background-image: url(../images/blog/Cream-Soup.jpg);}
-.blog__article--case3{background-image: url(../images/blog/Raspberry.jpg);}
-
+.blog__article:hover:after{
+    opacity: 1; transition: all 0.5s;
+}
+.blog__article--case1{
+    background-image: url(../images/blog/GreenSmoothie.jpg);
+}
+.blog__article--case2{
+    background-image: url(../images/blog/Cream-Soup.jpg);
+}
+.blog__article--case3{
+    background-image: url(../images/blog/Raspberry.jpg);
+}
 .blog__datebox{
     border-radius: 5px;
     background-color: rgba(38, 38, 38, 0.502);
@@ -83,11 +87,16 @@
     flex-direction: column;
     justify-content: space-around;
 }
-
-.blog__datebox-text{font-weight: 700; color:#fff;}
-.blog__datebox-text--day{font-size:32px;}
-.blog__datebox-text--month{font-size:21px;}
-
+.blog__datebox-text{
+    font-weight: 700; 
+    color:#fff;
+}
+.blog__datebox-text--day{
+    font-size:32px;
+}
+.blog__datebox-text--month{
+    font-size:21px;
+}
 .blog__article-title{
     position: absolute;
     left: 20px;
@@ -106,7 +115,6 @@
     font-size: 13px;
     z-index: 3;
 }
-
 .blog__button{
     display: block;
     background: rgb(247, 43, 59);
