@@ -108,6 +108,17 @@
   text-align: center;
   width: 200px;
   background: #5585a2;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.gallery--box-wrapper .gallery__button-container .gallery__button:hover {
+  background: #7dc4f0;
+  color: #37627c;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .subscribe {
@@ -169,5 +180,14 @@
   width: 170px;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
-/*# sourceMappingURL=style.css.map */
+
+.subscribe .subscribe__button:hover {
+  background: #d0f365;
+  color: #96b92c;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/*# sourceMappingURL=gallery-subscribe.css.map */

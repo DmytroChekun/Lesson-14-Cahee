@@ -10,7 +10,7 @@
 }
 
 .services{
-    width: 1180px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -26,8 +26,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 74px;
-    margin-left: 105px;
+    margin-top: 77px;
+    margin-left: 117px;
 }
 
 .services__item{
@@ -41,11 +41,12 @@
     color: #262626;
     font-size: 20px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
 }
 
 .services__item:hover{
     filter: invert(100%);
-    transition: all 0.3s ease-out;
+    transition: all 0.5s;
 }
 
 .services__ico{
@@ -69,18 +70,21 @@
 .services__title--align{
     text-align: center;
 }
-
-.services__pic-title{
-    font-size: 90px;
-    color: #fff;
-}
-
 .services__pic-box{
     position: relative;
     width: 545px;
     height: 525px;
     margin-top: 180px;
+    margin-right: 10px;
 }
+
+.services__pic-title{
+    font-size: 90px;
+    color: #fff;
+    width: 550px;
+}
+
+
 
 .services__img{
     position: absolute;

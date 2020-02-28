@@ -63,7 +63,7 @@
     transition: 0.4s;
     z-index: 2;
 }
-.blog__article:hover:after {opacity: 1;}
+.blog__article:hover:after {opacity: 1; transition: all 0.5s;}
 
 .blog__article--case1{background-image: url(../images/blog/GreenSmoothie.jpg);}
 .blog__article--case2{background-image: url(../images/blog/Cream-Soup.jpg);}
@@ -121,9 +121,10 @@
     color: #fff;
     margin: 0 auto;
     margin-top: 50px;
+    transition: all 0.5s;
 }
 .blog__button:hover{
     box-shadow:0px 2px 8px 1px #292828;
-    transition: box-shadow 0.25s;
+    transition: all 0.4s;
 }
       

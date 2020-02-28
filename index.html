@@ -6,14 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery-subscribe.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/header-about.css">
     <link rel="icon" href="images/ico.png">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="header-wrapper">
+        <div class="background-container">
+            <div class="header">
+                <div class="header__menu">
+                    <div class="menu">
+                        <div class="menu__logo"><img src="./images/Header-about/logo.png" alt="cahee"></div>
+                        <nav class="menu__nav-bar">
+                            <div class="menu__nav-item"><a class="nav-item__link color--darkgrey" href="#">Home</a></div>
+                            <div class="menu__nav-item"><a class="nav-item__link color--darkgrey" href="#">About</a></div>
+                            <div class="menu__nav-item"><a class="nav-item__link color--darkgrey" href="#">Services</a></div>
+                            <div class="menu__nav-item"><a class="nav-item__link color--darkgrey" href="#">Gallery</a></div>
+                            <div class="menu__nav-item"><a class="nav-item__link color--darkgrey" href="#">Blog</a></div>
+                            <div class="menu__nav-item"><a class="nav-item__link color--darkgrey" href="#">Contact</a></div>
+                        </nav>
+                    </div>         
+                </div>
+                <div class="header__header-post">
+                    <div class="header-post__content color--darkgrey">
+                        <h2 class="content__header-title">Fresh Life</h2>
+                        <p class="content__header-text p--font">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco.</p>
+                        <input class="button" type="button" value="GET FREE NOW">
+                    </div>
+                </div>
+                <div class="header__content-box">
+                    <div class="content-box__img-box"><a href="#contact"><img class="img-box__item" src="./images/Header-about/scroll.png" 
+                        alt="scroll img"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+<!--============================================================About===========================================================================-->
+
+    <div class="about-wrapper">
+        <div class="about">
+            <div class="about__about-post">
+                <div class="about-post__img-wrapper">
+                    <div class="image"><img src="./images/Header-about/img.png" alt="strawberry in cup"></div>
+                </div>
+                <div class="about-post__content-wrapper">
+                        <div class="content">
+                            <h2 class="content__about-title">About Us</h2>
+                            <p class="content__about-text p--font">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum.
+                            </p>
+                            <p class="content__about-text p--font">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                                error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--============================================================Services========================================================================-->
+    <div class="services-wrapper">
+        <div class="services">
+            <nav class="services__list">
+                <div class="services__item">
+                    <p class="services__title">Online Shopping</p>
+                    <div class="services__ico"><img src="./images/services/shopping.svg"></div>
+                </div>
+                <div class="services__item">
+                    <p class="services__title">Quality Product</p>
+                    <div class="services__ico"><img src="./images/services/quality-product.svg"></div>
+                </div>
+                <div class="services__item">
+                    <p class="services__title services__title--align">Domestic & International Delivery</p>
+                    <div class="services__ico"><img src="./images/services/DIM.svg"></div>
+                </div>
+                <div class="services__item">
+                    <p class="services__title">Well Organized</p>
+                    <div class="services__ico"><img src="./images/services/well-organized.svg"></div>
+                </div>
+            </nav>
+            <div class="services__pic-box">
+                <img class="services__img" src="./images/services/tomatos.png">
+                <h2 class="services__pic-title">Our Services</h2>
+            </div>
+        </div>
+    </div>
 
 <!--============================================================Gallery========================================================================-->
     <div class="gallery--box-wrapper">
@@ -91,7 +177,7 @@
     </div>
 </div>
 <!--============================================================Contact========================================================================-->
-<div class="contact">
+<div class="contact" id="contact">
     <div class="contact__header">
         <h2 class="contact__title font-bold">Contact</h2>
         <p class="contact__subtitle font-lite">For new projects, ideas, business or anything
@@ -139,6 +225,7 @@
         <p class="footer__right-label font-lite">Made with <span class="font-bold marked-text">love</span> by Auskteez</p>
     </div>
 </div>
+
 <!--                                           jquery.maskedinput.                                                         -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="./plugins/jquery.mask.min.js"></script>

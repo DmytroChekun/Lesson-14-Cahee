@@ -71,6 +71,8 @@
     color: #fff;
     box-sizing: border-box;
     padding-left: 20px;
+    font-family: 'Raleway';
+    font-weight: 300;
 }
 
 .input-section__item::-webkit-input-placeholder{
@@ -95,6 +97,15 @@
     opacity: 0.950;
     width: 500px;
     color: #fff;
+    font-family: 'Raleway';
+    font-weight: 300;
+    transition: all 0.5s;
+}
+
+.input-section__submit:hover{
+    background: rgb(126, 235, 220);
+    color: rgb(5, 126, 126);
+    transition: all 0.5s;
 }
 
 .error{
