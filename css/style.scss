@@ -20,26 +20,27 @@ body{
     font-family: 'Raleway';
         .header-wrapper{
             width: 100%;
-            background-color: #f9f8fb;
+            background-color: #f8f7fa;
             .background-container{
                 background-image: url(../images/Header-about/img.jpg);
                 background-repeat: no-repeat;
-                width: 1500px;
+                background-size: cover;
+                width: 100%;
                 margin: 0 auto;
+                background-color: #f8f7fa;
                 .header{
-                    width: 1170px;
                     height: 1000px;
                     margin: 0 auto;
                     .header__menu{
-                        padding-top: 45px;
+                        padding-top: 20px;
                         .menu{
                             display: flex;
-                            height: 60px;
+                            height: 100px;
                             flex-direction: row;
                             align-items: center;
                             justify-content: space-between;
                             .menu__nav-bar{
-                                width: 560px;
+                                width: 580px;
                                 display: flex;
                                 flex-direction: row;
                                 justify-content: space-between;
@@ -62,7 +63,7 @@ body{
                         }
                     }
                     .header__header-post{
-                        margin-top: 240px;
+                        margin-top: 150px;
                         .header-post__content{
                             width: 370px;
                             height: 270px;

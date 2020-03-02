@@ -13,31 +13,32 @@ body {
 
 body .header-wrapper {
   width: 100%;
-  background-color: #f9f8fb;
+  background-color: #f8f7fa;
 }
 
 body .header-wrapper .background-container {
   background-image: url(../images/Header-about/img.jpg);
   background-repeat: no-repeat;
-  width: 1500px;
+  background-size: cover;
+  width: 100%;
   margin: 0 auto;
+  background-color: #f8f7fa;
 }
 
 body .header-wrapper .background-container .header {
-  width: 1170px;
   height: 1000px;
   margin: 0 auto;
 }
 
 body .header-wrapper .background-container .header .header__menu {
-  padding-top: 45px;
+  padding-top: 20px;
 }
 
 body .header-wrapper .background-container .header .header__menu .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 60px;
+  height: 100px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -51,7 +52,7 @@ body .header-wrapper .background-container .header .header__menu .menu {
 }
 
 body .header-wrapper .background-container .header .header__menu .menu .menu__nav-bar {
-  width: 560px;
+  width: 580px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,7 +86,7 @@ body .header-wrapper .background-container .header .header__menu .menu .menu__na
 }
 
 body .header-wrapper .background-container .header .header__header-post {
-  margin-top: 240px;
+  margin-top: 150px;
 }
 
 body .header-wrapper .background-container .header .header__header-post .header-post__content {
@@ -907,4 +908,4 @@ body .footer-wrapper .footer .footer__right-label {
 body .footer-wrapper .footer .footer__right-label .marked-text {
   color: #ff2b58;
 }
-/*# sourceMappingURL=header-about.css.map */
+/*# sourceMappingURL=style.css.map */
