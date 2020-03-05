@@ -245,35 +245,30 @@ body{
                     }
                 }
             }
-        .gallery--box-wrapper{
-            background: #ffe92f;
-    
         .gallery{
-            background: #ffe92f;
             font-family: 'Raleway';
             color: #262626;
+            background: #ffe92f;
                     .gallery__content-wrapper{
-                        margin: 0 auto;
                         .gallery__header{
                             text-align: center;
                             .gallery__title{
                                 font-weight: 700;
                                 font-size: 90px;
                             }
-                            .gallery__subtitle-wrap{
-                                margin-top: -70px;
-                                .gallery__subtitle{
-                                    font-weight: 300;
-                                    font-size: 17px;
-                                    line-height: 1.59;
-                                }
+                            .gallery__subtitle{
+                                font-weight: 300;
+                                font-size: 17px;
+                                line-height: 1.59;
                             }
                         }
                     }
                 &__img-container{
                     .gallery__img-box{
+                        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
                         .gallery__img{
-                            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+                            width: 100%;
+                            display: block !important;
                         }
                         }
                         .gallery__vertical-wrap{
@@ -296,7 +291,6 @@ body{
                     }
                 }
             }
-        }
         .subscribe{
             background-image: url(../images/gallery+subscribe/BlueberryBG.jpg);
             background-size: cover;
