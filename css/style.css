@@ -13,6 +13,22 @@
   }
 }
 
+@media (max-width: 992px) {
+  .services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .services__list {
+    margin-top: -200px;
+  }
+  .services__pic-title {
+    font-size: 80px !important;
+    margin-left: 100px;
+  }
+}
+
 @media (max-width: 767px) {
   .menu__logo {
     margin: 0 auto;
@@ -56,8 +72,11 @@
   .about__content {
     margin-top: -140px;
   }
-  .services::before {
-    display: inline;
+  .services__pic-title {
+    font-size: 70px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -222,6 +241,23 @@ body .about-wrapper .about .about__content .content__about-text {
   display: none;
 }
 
+.services-bacground .services-wrapper .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 110px 0 120px 0;
+}
+
+.services-bacground .services-wrapper .services .services__list {
+  z-index: 4;
+}
+
 .services-bacground .services-wrapper .services .services__list .services__item {
   background-color: #fff;
   color: #262626;
@@ -234,10 +270,16 @@ body .about-wrapper .about .about__content .content__about-text {
 }
 
 .services-bacground .services-wrapper .services .services__list .services__item .services__title {
-  text-align: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 18px;
 }
 
 .services-bacground .services-wrapper .services .services__list .services__item .services__ico {
@@ -265,24 +307,18 @@ body .about-wrapper .about .about__content .content__about-text {
 }
 
 .services-bacground .services-wrapper .services .services__pic-box {
-  position: relative;
   height: 525px;
-  margin-top: 180px;
 }
 
 .services-bacground .services-wrapper .services .services__pic-box .services__img {
-  position: absolute;
-  bottom: 180px;
-  left: 22%;
+  z-index: 1;
 }
 
 .services-bacground .services-wrapper .services .services__pic-box .services__pic-title {
-  position: absolute;
-  bottom: 305px;
+  margin: -320px auto 0 auto;
   font-size: 90px;
-  font-weight: 900;
+  font-weight: 700;
   color: #fff;
-  left: 14%;
   width: 560px;
 }
 

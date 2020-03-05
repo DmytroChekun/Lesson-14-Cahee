@@ -22,8 +22,17 @@
         margin-top: -80px;
     }
 }
-@media (min-width: 992px){
-    
+@media (max-width: 992px){
+    .services{
+        flex-direction: column-reverse;
+    }
+    .services__list{
+        margin-top: -200px;
+    }
+    .services__pic-title{
+        font-size: 80px !important;
+        margin-left: 100px;
+    }
 }
 @media (max-width: 767px) {
     // Header media
@@ -57,8 +66,10 @@
         margin-top: -140px;
     }
     // Services media
-    .services::before{
-        display: inline;
+    .services__pic-title{
+        font-size: 70px !important;
+        // margin-left: 45px;
+        display: flex;
     }
 }
 body{
@@ -183,7 +194,12 @@ body{
                         display: none;
                     }
                     .services{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 110px 0 120px 0;
                         .services__list{
+                            z-index: 4;
                             .services__item{
                                 background-color: #fff;
                                 color: #262626;
@@ -192,8 +208,10 @@ body{
                                 transition: all 0.25s;
                                 height: 100px;
                                 .services__title{
-                                    text-align: center;
-                                    align-self: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 18px;
                                 }
                                 .services__ico{
                                     border-left: 1px #9d9d9d solid;
@@ -212,22 +230,15 @@ body{
                             }
                         }
                         .services__pic-box{
-                            position: relative;
                             height: 525px;
-                            margin-top: 180px;
                             .services__img{
-                                position: absolute;
-                                bottom: 180px;
-                                left: 22%;
+                                z-index: 1;
                             }
                             .services__pic-title{
-                                position: absolute;
-                                bottom: 305px;
+                                margin: -320px auto 0 auto;
                                 font-size: 90px;
-                                font-weight: 900;
+                                font-weight: 700;
                                 color: #fff;
-                                left: 14%;
-                                
                                 width: 560px;
                             }
                         }
