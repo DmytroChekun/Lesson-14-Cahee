@@ -7,20 +7,19 @@
     <title>Document</title>
 
     <link rel="icon" href="images/ico.png">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-        <div class="header-wrapper">
-            <div class="background-container">
+            <div class="header-background">
                 <div class="header container">
-                    <div class="header__menu container">
+                    <div class="header__menu">
                         <div class="menu row">
-                            <div class="menu__logo col-xl-6 col-lg-5 col-md-4"><img src="./images/Header-about/logo.png" alt="cahee"></div>
-                            <nav class="menu__nav-bar col-xl-6 col-lg-7 col-md-8">
+                            <div class="menu__logo col-lg-6 col-md-12 col-sm-2"><img src="./images/Header-about/logo.png" alt="cahee"></div>
+                            <nav class="menu__nav-bar col-lg-6 col-md-12 col-sm-12">
                                 <div class="menu__nav-item"><a class="nav-item__link color--darkgrey" href="#">Home</a>
                                 </div>
                                 <div class="menu__nav-item"><a class="nav-item__link color--darkgrey" href="#">About</a>
@@ -36,14 +35,14 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="header__header-post row">
-                        <div class="header-post__content color--darkgrey">
+                    <div class="header__header-post pt-5 row">
+                        <div class="header-post__content col-lg-4 col-md-10 col-sm-11 row color--darkgrey">
                             <h2 class="content__header-title">Fresh Life</h2>
-                            <p class="content__header-text p--font">Sed do eiusmod tempor incididunt ut labore et dolore
+                            <p class="content__header-text p--font mb-5">Sed do eiusmod tempor incididunt ut labore et dolore
                                 magna aliqua.
                                 Ut enim ad minim veniam, quis
                                 nostrud exercitation ullamco.</p>
-                            <input class="button" type="button" value="GET FREE NOW">
+                            <input class="header-button" type="button" value="GET FREE NOW">
                         </div>
                     </div>
                     <div class="header__content-box">
@@ -52,57 +51,58 @@
                     </div>
                 </div>
             </div>
-        </div>
 
         <!--============================================================About===========================================================================-->
 
-            <div class="about-wrapper container">
-                <div class="about row">
-                    <div class="about__img-wrapper">
-                        <div class="image"><img src="./images/Header-about/img.png" alt="strawberry in cup"></div>
-                    </div>
-                    <div class="about__content-wrapper">
-                        <div class="content">
-                            <h2 class="content__about-title">About Us</h2>
-                            <p class="content__about-text p--font">Abore Cahee magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud
-                                exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse
-                                cillum.
-                            </p>
-                            <p class="content__about-text p--font">Nim id est laborum. Sed ut perspiciatis unde omnis
-                                iste natus
-                                error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+            <div class="about-wrapper container-fluid">
+                <div class="about-con container">
+                    <div class="about row justify-content-between">
+                        <div class="about__img-wrapper col-lg-7 ml-0 col-md-6">
+                            <img class="about__img" src="./images/Header-about/img.png" alt="strawberry in a cup">
                         </div>
+                            <div class="about__content col-lg-5 col-md-6">
+                                <h2 class="content__about-title">About Us</h2>
+                                <p class="content__about-text p--font">Abore Cahee magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud
+                                    exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                    velit esse
+                                    cillum.
+                                </p>
+                                <p class="content__about-text p--font">Nim id est laborum. Sed ut perspiciatis unde omnis
+                                    iste natus
+                                    error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                            </div>
                     </div>
                 </div>
             </div>
         <!--============================================================Services========================================================================-->
-        <div class="services-wrapper container">
-            <div class="services row">
-                <nav class="services__list">
-                    <div class="services__item">
-                        <p class="services__title">Online Shopping</p>
-                        <div class="services__ico"><img src="./images/services/shopping.svg"></div>
+        <div class="services-bacground container-fluid">
+            <div class="services-wrapper container">
+                <div class="services row align-items-center justify-content-center">
+                    <nav class="services__list col-lg-4 col-md-7 col-sm-12">
+                        <div class="services__item row mb-2">
+                            <p class="services__title col-9">Online Shopping</p>
+                            <div class="services__ico col-3"><img src="./images/services/shopping.svg"></div>
+                        </div>
+                        <div class="services__item row mb-2">
+                            <p class="services__title col-9">Quality Product</p>
+                            <div class="services__ico col-3"><img src="./images/services/quality-product.svg"></div>
+                        </div>
+                        <div class="services__item row mb-2">
+                            <p class="services__title col-9 services__title--align">Domestic & International Delivery</p>
+                            <div class="services__ico col-3"><img src="./images/services/DIM.svg"></div>
+                        </div>
+                        <div class="services__item row mb-2">
+                            <p class="services__title col-9">Well Organized</p>
+                            <div class="services__ico col-3"><img src="./images/services/well-organized.svg"></div>
+                        </div>
+                    </nav>
+                    <div class="services__pic-box col-lg-6">
+                        <img class="services__img" src="./images/services/tomatos.png">
+                        <h2 class="services__pic-title">Our Services</h2>
                     </div>
-                    <div class="services__item">
-                        <p class="services__title">Quality Product</p>
-                        <div class="services__ico"><img src="./images/services/quality-product.svg"></div>
-                    </div>
-                    <div class="services__item">
-                        <p class="services__title services__title--align">Domestic & International Delivery</p>
-                        <div class="services__ico"><img src="./images/services/DIM.svg"></div>
-                    </div>
-                    <div class="services__item">
-                        <p class="services__title">Well Organized</p>
-                        <div class="services__ico"><img src="./images/services/well-organized.svg"></div>
-                    </div>
-                </nav>
-                <div class="services__pic-box">
-                    <img class="services__img" src="./images/services/tomatos.png">
-                    <h2 class="services__pic-title">Our Services</h2>
                 </div>
             </div>
         </div>
