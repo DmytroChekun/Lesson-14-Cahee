@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b931b5eee5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -33,6 +34,24 @@
                                 <div class="menu__nav-item"><a class="nav-item__link color--darkgrey"
                                         href="#">Contact</a></div>
                             </nav>
+                            <input type="checkbox" id="burger" class="burger">
+                            <label for="burger" class="burger-label"></label>
+                            <nav class="menu__nav-bar burger-menu">
+                                <div class="menu__nav-item burger-item"><a class="nav-item__link color--darkgrey" href="#">Home</a>
+                                </div>
+                                <div class="menu__nav-item burger-item"><a class="nav-item__link color--darkgrey" href="#">About</a>
+                                </div>
+                                <div class="menu__nav-item burger-item"><a class="nav-item__link color--darkgrey"
+                                        href="#">Services</a></div>
+                                <div class="menu__nav-item burger-item"><a class="nav-item__link color--darkgrey"
+                                        href="#">Gallery</a></div>
+                                <div class="menu__nav-item burger-item"><a class="nav-item__link color--darkgrey" href="#">Blog</a>
+                                </div>
+                                <div class="menu__nav-item burger-item"><a class="nav-item__link color--darkgrey"
+                                        href="#">Contact</a></div>
+                            </nav>
+
+
                         </div>
                     </div>
                     <div class="header__header-post pt-5 row">
@@ -123,14 +142,14 @@
                         <img class="gallery__img col-lg-8 col-md-12 mb-3"
                                 src="./images/gallery+subscribe/Apricot.jpg">
                         <div class="gallery__vertical-wrap col-lg-4 col-md-12 justify-content-between">
-                            <img class="gallery__img mb-5"
+                            <img class="gallery__img mb-3"
                                     src="./images/gallery+subscribe/Blueberry.jpg">
                             <img class="gallery__img"
                                     src="./images/gallery+subscribe/Mulberry.jpg">
                         </div>
-                        <img class="gallery__img col-lg-6 col-md-12"
+                        <img class="gallery__img gallery__img--bottom col-lg-6 col-md-12"
                                 src="./images/gallery+subscribe/Blueberry2.jpg">
-                        <img class="gallery__img col-lg-6 col-md-12"
+                        <img class="gallery__img gallery__img--bottom col-lg-6 col-md-12"
                                 src="./images/gallery+subscribe/Persimmon.jpg">
                     </div>
                     <div class="gallery__button-container">
@@ -240,6 +259,21 @@
     <!--                                           jquery.maskedinput.                                                         -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./plugins/jquery.mask.min.js"></script>
+    
+    
+    
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            $(document).ready(function() {
+                $(".topper__burger").on("click", () => {
+                    $(".submenu").toggleClass("submenu--show");
+                });
+            });
+        </script>
 
 
 </body>
