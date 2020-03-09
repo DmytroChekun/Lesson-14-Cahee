@@ -138,19 +138,25 @@
                             nisi ut
                             aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="gallery__img-container row justify-content-between">
-                        <img class="gallery__img col-lg-8 col-md-12 mb-3"
-                                src="./images/gallery+subscribe/Apricot.jpg">
-                        <div class="gallery__vertical-wrap col-lg-4 col-md-12 justify-content-between">
-                            <img class="gallery__img mb-3"
-                                    src="./images/gallery+subscribe/Blueberry.jpg">
+                    <div class="gallery__img-container row">
+                        <div class="gallery__img-box gallery__img-box--top">
                             <img class="gallery__img"
+                                    src="./images/gallery+subscribe/Apricot.jpg">
+                        </div>
+                        <div class="gallery__vertical-wrap justify-content-between">
+                            <img class="gallery__img gallery__img--right-column1"
+                                    src="./images/gallery+subscribe/Blueberry.jpg">
+                            <img class="gallery__img gallery__img--right-column2"
                                     src="./images/gallery+subscribe/Mulberry.jpg">
                         </div>
-                        <img class="gallery__img gallery__img--bottom col-lg-6 col-md-12"
-                                src="./images/gallery+subscribe/Blueberry2.jpg">
-                        <img class="gallery__img gallery__img--bottom col-lg-6 col-md-12"
-                                src="./images/gallery+subscribe/Persimmon.jpg">
+                        <div class="gallery__img-box gallery__img-box--bottom1">
+                            <img class="gallery__img"
+                                    src="./images/gallery+subscribe/Blueberry2.jpg">
+                        </div>
+                        <div class="gallery__img-box gallery__img-box--bottom2">
+                            <img class="gallery__img"
+                                    src="./images/gallery+subscribe/Persimmon.jpg">
+                        </div>
                     </div>
                     <div class="gallery__button-container">
                         <button class="gallery__button">VIEW MORE</button>
@@ -158,27 +164,28 @@
                 </div>
             </div>
         <!--============================================================Subscribe======================================================================-->
-        <div class="subscribe container-fluid">
-            <div class="subscribe__container container row">
+        <div class="subscribe container">
+            <div class="subscribe__container container">
                 <h2 class="subscribe__title col-12">Subscribe To Us</h2>
                 <p class="subscribe__subtitle col-lg-7">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <input class="subscribe__email-input col-lg-6 col-md-8 col-sm-9" type="email" id="email" name="email"
+                <input class="subscribe__email-input mb-5 col-lg-6 col-md-8 col-sm-9" type="email" id="email" name="email"
                     placeholder="Your email address...">
-                <button class="subscribe__button offset-lg-1 col-lg-2 col-md-3 col-sm-3">SUBSCRIBE</button>
+                <button class="subscribe__button col-lg-2 offset-lg-1 col-md-3 col-sm-4">SUBSCRIBE</button>
             </div>
         </div>
         <!--============================================================Blog==========================================================================-->
-        <div class="blog-wrapper">
-            <div class="blog">
-                <div class="blog__header">
-                    <h1 class="blog__title">Blog</h1>
-                    <p class="blog__subtitle">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        <div class="blog-wrapper container-fluid">
+            <div class="blog container">
+                <div class="blog__header row">
+                    <h1 class="blog__title col-12">Blog</h1>
+                    <p class="blog__subtitle col-lg-7 offset-lg-5 col-md-10 offset-1 col-sm-12">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea
                         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                 </div>
-                <div class="blog__article-wrapper">
+                <div class="blog__article-wrapper row">
                     <div class="blog__article blog__article--case1">
+                        <img class="blog__article-img" src="./images/blog/GreenSmoothie.jpg">
                         <div class="blog__datebox">
                             <p class="blog__datebox-text blog__datebox-text--day">20</p>
                             <p class="blog__datebox-text blog__datebox-text--month">NOV</p>
@@ -187,6 +194,7 @@
                         <p class="blog__article-author">By Auskteez - 2 hours ago</p>
                     </div>
                     <div class="blog__article blog__article--case2">
+                        <img class="blog__article-img" src="./images/blog/Cream-Soup.jpg">
                         <div class="blog__datebox">
                             <p class="blog__datebox-text blog__datebox-text--day">14</p>
                             <p class="blog__datebox-text blog__datebox-text--month">NOV</p>
@@ -195,6 +203,7 @@
                         <p class="blog__article-author">By Auskteez - 3 hours ago</p>
                     </div>
                     <div class="blog__article blog__article--case3">
+                        <img class="blog__article-img" src="./images/blog/Raspberry.jpg">
                         <div class="blog__datebox">
                             <p class="blog__datebox-text blog__datebox-text--day">10</p>
                             <p class="blog__datebox-text blog__datebox-text--month">NOV</p>
@@ -202,52 +211,55 @@
                         <p class="blog__article-title">Pesticides & Food: What You Need to Know</p>
                         <p class="blog__article-author">By Auskteez - 6 hours ago</p>
                     </div>
+                </div>
+                <div class="blog__button-section">
                     <input class="button blog__button" type="button" value="VIEW MORE">
                 </div>
             </div>
         </div>
         <!--============================================================Contact========================================================================-->
-        <div class="contact" id="contact">
-            <div class="contact__header">
-                <h2 class="contact__title font-bold">Contact</h2>
-                <p class="contact__subtitle font-lite">For new projects, ideas, business or anything
+        <div class="contact container-fluid" id="contact">
+            <div class="contact__header container">
+                <h2 class="contact__title font-bold col-12">Contact</h2>
+                <p class="contact__subtitle font-lite mt-3">For new projects, ideas, business or anything
                     you'd like to discuss, contact with me!</p>
             </div>
-            <div class="main-content">
-                <div class="main-content__wrapper-left-box">
-                    <form action="#" method="get">
-                        <div class="input-section">
-                            <input class="input-section__item" type="name" name="name" id="name" required
-                                placeholder="Your name..." minlength="4">
-                            <div class="error">Error</div>
-                            <input class="input-section__item" type="email" name="email2" id="email2" required
-                                placeholder="Your email..." minlength="5">
-                            <div class="error">Error</div>
-                            <input class="input-section__item" type="tel" name="phone" id="phone" required
-                                placeholder="Your phone number..." data-mask="(000) 000-00-00">
-                            <div class="error">Error</div>
-                            <textarea class="input-section__item input-section--textarea" required name="message"
-                                id="message" minlength="6" cols="30" rows="10" placeholder="Your message..."></textarea>
-                            <div class="error">Error</div>
-                            <input class="input-section__submit" type="submit" value="Submit" name="submit" id="submit">
-
+            <div class="main-content__wrapper container">
+                <div class="main-content row">  
+                    <div class="main-content__wrapper-left-box col-lg-6">
+                        <form action="#" method="get">
+                            <div class="input-section row">
+                                <input class="input-section__item col-11" type="name" name="name" id="name" required
+                                    placeholder="Your name..." minlength="4">
+                                <div class="error col-11">Error</div>
+                                <input class="input-section__item col-11" type="email" name="email2" id="email2" required
+                                    placeholder="Your email..." minlength="5">
+                                <div class="error col-11">Error</div>
+                                <input class="input-section__item col-11" type="tel" name="phone" id="phone" required
+                                    placeholder="Your phone number..." data-mask="(000) 000-00-00">
+                                <div class="error col-11">Error</div>
+                                <textarea class="input-section__item input-section--textarea col-11" required name="message"
+                                    id="message" minlength="6" cols="30" rows="10" placeholder="Your message..."></textarea>
+                                <div class="error col-11">Error</div>
+                                <input class="input-section__submit col-11" type="submit" value="Submit" name="submit" id="submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="main-content__wrapper-right-box container col-lg-4 offset-lg-1">
+                        <div class="contact-box">
+                            <h3 class="contact-box__label font-bold">ADDRESS</h3>
+                            <p class="contact-box__value font-lite">123 City name, Street, City, Country</p>
+                            <h3 class="contact-box__label font-bold">EMAIL</h3>
+                            <p class="contact-box__value font-lite">cahee@domain.com</p>
+                            <h3 class="contact-box__label font-bold">PHONE</h3>
+                            <p class="contact-box__value font-lite">+012 345 6789</p>
                         </div>
-                    </form>
-                </div>
-                <div class="main-content__wrapper-right-box">
-                    <div class="contact-box">
-                        <h3 class="contact-box__label font-bold">ADDRESS</h3>
-                        <p class="contact-box__value font-lite">123 City name, Street, City, Country</p>
-                        <h3 class="contact-box__label font-bold">EMAIL</h3>
-                        <p class="contact-box__value font-lite">cahee@domain.com</p>
-                        <h3 class="contact-box__label font-bold">PHONE</h3>
-                        <p class="contact-box__value font-lite">+012 345 6789</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-wrapper">
-            <div class="footer">
+        <div class="footer-wrapper container-fluid">
+            <div class="footer container">
                 <p class="footer__left-label font-lite">© 2015 Company. All right reserved.</p>
                 <div class="footer__logo-wrap">
                     <img class="footer__logo" src="./images/contact/logo-small.png" alt="logo">
@@ -259,23 +271,6 @@
     <!--                                           jquery.maskedinput.                                                         -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./plugins/jquery.mask.min.js"></script>
-    
-    
-    
-    <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"
-        ></script>
-        <script>
-            $(document).ready(function() {
-                $(".topper__burger").on("click", () => {
-                    $(".submenu").toggleClass("submenu--show");
-                });
-            });
-        </script>
-
-
 </body>
 
 </html>
