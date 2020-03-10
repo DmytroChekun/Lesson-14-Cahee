@@ -71,6 +71,9 @@
         font-size: 80px !important;
         margin-left: 100px;
     }
+    .services__img{
+        margin-left: 0 !important;
+    }
 }
 @media (max-width: 767px) {
     // Header media
@@ -217,6 +220,8 @@ body{
                             }
                             .content__header-text{
                                 line-height: 27px;
+                                color: #dfdfdf;
+                                mix-blend-mode: difference;
                             }
                             .header-button{
                                 @include button();
@@ -384,8 +389,10 @@ body{
                         align-content: space-between;
                         width: 30%;
                         .gallery__img--right-column1{
+                            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
                         }
                         .gallery__img--right-column2{
+                            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
                         }
                     }
                         .gallery__img-box--bottom1{
@@ -440,7 +447,7 @@ body{
                     font-weight: 700;
                     background-color: rgba(255, 255, 255, 0.466);
                     width: min-content;
-                    border-radius: 10px;
+                    border-radius: 5px;
                 }
                 &__subtitle{
                     font-weight: 300;
@@ -449,7 +456,7 @@ body{
                     margin-bottom: 28px;
                     background-color: rgba(255, 255, 255, 0.466);
                     width: fit-content;
-                    border-radius: 10px;
+                    border-radius: 5px;
                 }
                 &__email-input{
                         border-style: 1px #262626 solid;
@@ -692,10 +699,14 @@ body{
                             .contact-box__label{
                                 font-size: 17px;
                                 text-transform: uppercase;
+                                background-color: rgba(255, 255, 255, 0.068);
+                                border-radius: 5px;
                             }
                             .contact-box__value{
                                 font-size: 20px;
                                 margin-bottom: 15px;
+                                background-color: rgba(255, 255, 255, 0.144);
+                                border-radius: 5px;
                             }
                         }
                     }
